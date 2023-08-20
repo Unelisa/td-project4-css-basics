@@ -1,0 +1,131 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.name{
+    font-weight: 900;
+    font-size: x-large;
+    margin-left: 80px;
+}
+section{
+    text-align: center;
+}
+
+
+header{
+    
+    padding: 20px;
+    background-color: #4D9AAD;
+    
+}
+
+header a{
+    color: rgb(255, 255, 255);
+}
+.container{
+    background-color: #157293;
+   display: flex;
+    padding: 7% 5%;
+    color: aliceblue;
+}
+.container h2{
+    margin-bottom: 10%;
+    font-size: 30px;
+}
+.container h3{
+    font-size: 26px;
+}
+.right, .left{width: 50%;}
+.right{
+    margin-left: 20%;
+}
+.left p{
+    font-size: 14.8px;
+}
+
+.strengths h1{
+    display: block;
+    color: #4D9AAD;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 50px;
+
+}
+.strengths{
+    padding: 10% 5%;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+.cards h4{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-align: center;
+    margin: 20px;
+}
+.cards p{
+    font-size: 16px;
+    text-align: center;
+    color: aliceblue;
+}
+.ability1, .ability2, .ability3{
+    background-color: #324A50;
+    width: 25%;
+    border-radius: 6%;
+    padding: 20px;
+}
+
+.headerItem{
+    display: flex;
+    justify-content: space-between;
+}
+.menu a{
+margin-right: 20px;
+font-weight: 600;
+}
+section{
+    margin: 7%;
+}
+
+section h2{
+    color: #4D9AAD;
+    margin: 20px 0;
+    font-size: 40px;
+}
+
+
+section p{
+    font-size: 20px;
+}
+
+footer{
+    background-color: #157293;
+    color: aliceblue;
+    text-align: center;
+    padding: 5% 5% 1%;
+}
+footer h4{
+    font-size: 18px;
+}
+footer h3{
+    font-size: 21px;
+}
+footer i{
+    margin-right: 10px;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+footer .copyright{
+    margin-top: 40px;
+}
